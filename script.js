@@ -1,3 +1,14 @@
+var timeout;
+
+const scroll = new LocomotiveScroll({
+   el: document.querySelector('#main'),
+   smooth: false
+});
+
+
+
+
+
 function toggleFAQ(id) {
    const answer = document.getElementById(`answer${id}`);
    const icon = document.getElementById(`icon${id}`);
